@@ -14,7 +14,6 @@ export default function CreateWorkoutScreen() {
     const [focus, setFocus] = useState("");
 
     function handleSave() {
-
         if (!title) {
             Alert.alert("Missing title", "Please enter a workout name first.");
             return;
@@ -42,6 +41,7 @@ export default function CreateWorkoutScreen() {
             <TextInput
                 style={styles.input}
                 placeholder="e.g. Push Day"
+                placeholderTextColor="#94A3B8"
                 value={title}
                 onChangeText={setTitle}
             />
@@ -50,6 +50,7 @@ export default function CreateWorkoutScreen() {
             <TextInput
                 style={styles.input}
                 placeholder="e.g. Thu · 18:00"
+                placeholderTextColor="#94A3B8"
                 value={schedule}
                 onChangeText={setSchedule}
             />
@@ -58,6 +59,7 @@ export default function CreateWorkoutScreen() {
             <TextInput
                 style={[styles.input, styles.textArea]}
                 placeholder="Main lifts, sets, notes..."
+                placeholderTextColor="#94A3B8"
                 value={focus}
                 onChangeText={setFocus}
                 multiline
@@ -77,24 +79,24 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 16,
-        backgroundColor: "#F8FAFC",
+        backgroundColor: "#181C24",
     },
     label: {
         fontSize: 13,
         fontWeight: "600",
-        color: "#334155",
+        color: "#CBD5E1",
         marginBottom: 6,
         marginTop: 10,
     },
     input: {
-        backgroundColor: "#FFFFFF",
+        backgroundColor: "#242A36",
         borderWidth: 1,
-        borderColor: "#CBD5E1",
+        borderColor: "#384152",
         borderRadius: 10,
         paddingHorizontal: 12,
         paddingVertical: 10,
         fontSize: 15,
-        color: "#0F172A",
+        color: "#F8FAFC",
     },
     textArea: {
         minHeight: 84,

@@ -58,16 +58,16 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 16,
-        backgroundColor: "#F8FAFC",
+        backgroundColor: "#181C24",
     },
     brand: {
         fontSize: 22,
         fontWeight: "700",
-        color: "#0F172A",
+        color: "#F8FAFC",
     },
     heading: {
         fontSize: 15,
-        color: "#475569",
+        color: "#94A3B8",
         marginTop: 2,
         marginBottom: 14,
     },
@@ -75,29 +75,29 @@ const styles = StyleSheet.create({
         gap: 10,
     },
     card: {
-        backgroundColor: "#FFFFFF",
+        backgroundColor: "#242A36",
         borderRadius: 12,
         padding: 14,
         borderWidth: 1,
-        borderColor: "#E2E8F0",
+        borderColor: "#384152",
     },
     cardPressed: {
-        opacity: 0.8,
+        opacity: 0.82,
     },
     cardTitle: {
         fontSize: 16,
         fontWeight: "600",
-        color: "#0F172A",
+        color: "#F1F5F9",
     },
     cardMeta: {
         fontSize: 13,
-        color: "#2563EB",
+        color: "#60A5FA",
         marginTop: 3,
         fontWeight: "500",
     },
     cardFocus: {
         fontSize: 13,
-        color: "#64748B",
+        color: "#CBD5E1",
         marginTop: 4,
     },
 });

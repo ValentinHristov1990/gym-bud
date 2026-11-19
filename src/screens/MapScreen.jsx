@@ -84,25 +84,25 @@ export default function MapScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#F8FAFC",
+        backgroundColor: "#181C24",
     },
     map: {
         flex: 1,
     },
     infoCard: {
-        backgroundColor: "#FFFFFF",
+        backgroundColor: "#181C24",
         padding: 16,
         borderTopWidth: 1,
-        borderColor: "#E2E8F0",
+        borderColor: "#384152",
     },
     gymName: {
         fontSize: 17,
         fontWeight: "700",
-        color: "#0F172A",
+        color: "#F8FAFC",
     },
     gymMeta: {
         fontSize: 13,
-        color: "#475569",
+        color: "#94A3B8",
         marginTop: 4,
     },
     chipsRow: {
@@ -114,15 +114,18 @@ const styles = StyleSheet.create({
         paddingHorizontal: 12,
         paddingVertical: 7,
         borderRadius: 999,
-        backgroundColor: "#F1F5F9",
+        backgroundColor: "#242A36",
+        borderWidth: 1,
+        borderColor: "#384152",
     },
     chipActive: {
         backgroundColor: "#2563EB",
+        borderColor: "#2563EB",
     },
     chipText: {
         fontSize: 13,
         fontWeight: "600",
-        color: "#334155",
+        color: "#CBD5E1",
     },
     chipTextActive: {
         color: "#FFFFFF",
