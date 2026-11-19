@@ -11,7 +11,7 @@ export default function WorkoutsNavigator() {
         <Stack.Navigator>
             <Stack.Screen name="Workouts" component={WorkoutScreen} />
             <Stack.Screen name="WorkoutDetails" component={WorkoutDetailsScreen} />
-            <Stack.Screen name="EditWorkouts" component={EditWorkoutScreen} />
+            <Stack.Screen name="EditWorkout" component={EditWorkoutScreen} />
         </Stack.Navigator>
     );
 }
