@@ -12,8 +12,10 @@ export default function TabsNavigator() {
       <Tabs.Screen
         name="WorkoutsTab"
         component={WorkoutsNavigator}
+
         options={{
           headerShown: false,
+          popToTopOnBlur: true,
           title: "Workouts",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="barbell" size={size} color={color} />
